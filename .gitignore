@@ -1,0 +1,25 @@
+# Build trees and local tooling output.
+build/
+build-*/
+out/
+cmake-build-*/
+CMakeUserPresets.json
+
+# Editor and IDE state.
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Compiler and test scratch.
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.log
+*.tmp
+Testing/
+__pycache__/
+*.pyc
